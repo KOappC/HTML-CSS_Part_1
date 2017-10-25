@@ -21,6 +21,11 @@ nav h6{
 
 /* intro content */
 
+.body {
+    display: inline-block;
+    width: 100%;
+}
+
 .info {
     display: inline-block;
 }
@@ -35,12 +40,36 @@ nav h6{
     padding: 10px;
     margin-left: 10px;
     font-size: 12px;
+    color: #69696a;
+    width: 50%;
 }
 
 /* circles */
 
 .circles {
     display: inline-block;
+    width: 50%;
+}
+
+#pink {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: rgba(247,   136,   167,   0.6);
+}
+
+#purple {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-color: rgba(207,   130,   213,   0.6);
+}
+
+#orange {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(247,   193,   162,   0.7);
 }
 
 /* persistent items */
