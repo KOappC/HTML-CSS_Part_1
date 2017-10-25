@@ -103,5 +103,7 @@ footer {
     position: fixed;
     display: block;
     margin: 0 auto;
+    margin-top: 15%;
+    margin-left: 45%;
     text-align: center;
 }
