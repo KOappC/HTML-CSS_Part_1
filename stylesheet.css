@@ -13,6 +13,12 @@ nav h6 {
     margin: 0.5em;
 }
 
+nav h6:hover {
+    background-color: #000000;
+    border-radius: 20px;
+    color: #f9fafc;
+}
+
 /* intro content */
 
 .info h5 {
@@ -53,6 +59,11 @@ nav h6 {
 
 footer {
     margin-top: 20%;
+}
+
+.invert:hover {
+    background-color: #f9fafc;
+    color: #69696a;
 }
 
 @media only screen and (min-width: 768px) {
@@ -144,7 +155,7 @@ footer {
         margin-top: 15%;
         margin-left: 50%;
         text-align: center;
-        transform: translate(-50%,100%);
+        transform: translate(-50%,50%);
     }
 
     .bar {
