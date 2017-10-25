@@ -7,6 +7,7 @@ body {
 
 nav h6 {
     font-size: 14px;
+    font-weight: 400;
     color: #69696a;
     padding: 0;
     margin: 0.5em;
@@ -16,17 +17,17 @@ nav h6 {
 
 .info h5 {
     font-size: 48px;
-    font-weight: 800;
+    font-weight: 400;
     margin: 1em 0 0 0;
 }
 
 .info p {
     border-left: solid #69696a;
     padding: 10px;
-    margin-left: 10px;
+    margin: 0 auto;
     font-size: 12px;
     color: #69696a;
-    width: 50%;
+    width: 100%;
 }
 
 /* persistent items */
@@ -37,13 +38,14 @@ nav h6 {
     padding: 10px 25px;
     color: #f9fafc;
     font-size: 14px;
-    margin: 1em;
-    max-width: 60%;
+    font-weight: 400;
+    text-align: center;
+    max-width: 100%;
 }
 
 #logo {
     display: inline-block;
-    font-weight: 800;
+    font-weight: 400;
     font-size: 14px;
     color: #000000;
     margin-right: 50%;
@@ -74,6 +76,7 @@ footer {
     .body {
         display: flex;
         width: 100%;
+        margin-top: 10%;
     }
 
     .info {
@@ -82,7 +85,7 @@ footer {
 
     .info h5 {
         font-size: 32px;
-        font-weight: 800;
+        font-weight: 400;
     }
 
     .info p {
@@ -141,7 +144,7 @@ footer {
         margin-top: 15%;
         margin-left: 50%;
         text-align: center;
-        transform: translate(-50%, 220%);
+        transform: translate(-50%,100%);
     }
 
     .bar {
