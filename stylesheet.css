@@ -17,6 +17,7 @@ nav h6:hover {
     background-color: #000000;
     border-radius: 20px;
     color: #f9fafc;
+    transition: 0.5s all;
 }
 
 /* intro content */
@@ -64,6 +65,7 @@ footer {
 .invert:hover {
     background-color: #f9fafc;
     color: #69696a;
+    transition: 0.5s all;
 }
 
 @media only screen and (min-width: 768px) {
